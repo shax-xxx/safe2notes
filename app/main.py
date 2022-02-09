@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 
 if len(sys.argv) != 2:
-    print("give safeplus.xml file name as first argument of the script")
+    print("give safeplus.xml file path as first argument of the script")
     sys.exit()
 
 XML_FILE = sys.argv[1]
